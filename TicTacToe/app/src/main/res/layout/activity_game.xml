@@ -1,0 +1,84 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:drawableBottom="@android:color/black"             android:drawableLeft="@android:color/black"             android:drawableRight="@android:color/black"             android:drawableTop="@android:color/black"             android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/b3"
+    android:gravity="center"
+    android:weightSum="1">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+
+        <TextView
+            android:drawableBottom="@android:color/black"             android:drawableLeft="@android:color/black"             android:drawableRight="@android:color/black"             android:drawableTop="@android:color/black"             android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="Turn flipper"
+            android:id="@+id/TurnState" />
+
+        </TableRow>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:weightSum="1"
+        android:layout_weight="0.17">
+
+        <TableRow
+            android:drawableBottom="@android:color/black"             android:drawableLeft="@android:color/black"             android:drawableRight="@android:color/black"             android:drawableTop="@android:color/black"             android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tableRow1">
+
+            <TextView
+                android:id="@+id/textView1"
+                style="@style/fieldStyle" />
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/fieldStyle" />
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/fieldStyle" />
+        </TableRow>
+
+        <TableRow
+            android:drawableBottom="@android:color/black"             android:drawableLeft="@android:color/black"             android:drawableRight="@android:color/black"             android:drawableTop="@android:color/black"             android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tableRow2">
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/fieldStyle" />
+            <TextView
+                android:id="@+id/textView5"
+                style="@style/fieldStyle" />
+            <TextView
+                android:id="@+id/textView6"
+                style="@style/fieldStyle" />
+        </TableRow>
+
+        <TableRow
+           android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tableRow3">
+
+            <TextView
+                android:id="@+id/textView7"
+                style="@style/fieldStyle" />
+            <TextView
+                android:id="@+id/textView8"
+                style="@style/fieldStyle" />
+
+            <TextView
+                android:id="@+id/textView9"
+                style="@style/fieldStyle" />
+        </TableRow>
+
+
+    </LinearLayout>
+</LinearLayout>

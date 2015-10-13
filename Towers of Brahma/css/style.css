@@ -1,0 +1,118 @@
+/* 
+    AUTHOR: Santosh Kumar Desai
+            santoshdesaitaegeuk@gmail.com
+*/
+
+* { margin: 0; padding: 0; }
+
+html { overflow-y: scroll; }
+h1 {
+  text-align: center;
+  width: 100%;
+  margin: 40px auto;
+  text-transform: uppercase;
+  text-shadow: 3px 3px #000;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #FFD700;
+  font-size: 48px;
+}
+p{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+#background {
+	background: url(../images/background.png) repeat 5% 5%;
+	height:250%;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 100;
+}
+
+#midground {
+	background: url(../images/midground.png) repeat 20% 20%;
+	height:250%;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 100;
+}
+
+#foreground {
+  min-height: 250%;
+	background: url(../images/foreground.png) repeat 90% 110%;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 200;
+}
+
+
+#page-wrap {
+	margin: 0 auto;
+	position: relative;
+	z-index: 300;
+	overflow: hidden;
+}
+
+.tower {
+  width: 250px;
+  margin: 0px 50px;
+  height: 600px;
+  float: left;
+  background: url(../images/peg.gif);
+  background-position: fixed;
+  background-size: 100%;
+}
+
+.tower:first-child {
+  margin-left: 180px;
+}
+
+.tower.highlight .disk:first-child{
+  background-color: yellow;
+}
+
+.disk {
+  height: 40px;
+  border: 1px solid green;
+  border-radius: 10px;
+  border: 1px solid #000;
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+.color1 {
+  background-color:#00ff00;
+}
+.color2 {
+  background-color:#87c5f5;
+}
+.color3 {
+  background-color:#603e94;
+}
+.color4 {
+  background-color: #0b144f;
+}
+.color5 {
+  background-color:#40004a;
+}
+.color6 {
+  background-color:#4d4dff;
+}
+.color7 {
+  background-color:#9ff005;
+}
+.color8 {
+  background-color:#ff00ff;
+}
+.color9 {
+  background-color:#00ffff;
+}
+.color10 {
+  background-color:#59E50A;
+}
